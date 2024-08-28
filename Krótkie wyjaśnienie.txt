@@ -1,0 +1,14 @@
+1) Początkowo miałem zamiar wykorzystać API Twittera w celu pobrania 1500 tweetów z ostatnich 7 dni. Jednak ten plan okazał się niemożliwy ze względu na zmiany w polityce platformy wobec web scrapingu.
+2) Próba wykorzystania metod pomijających API spotkała się z blokadą ze strony serwisu.
+3) W celu zebrania potrzebnych wpisów wykorzystałem usługi pozwalające na automatyczne zapisywanie pojawiających się tweetów w skoroszycie (Zapier i PhantomBuster).
+4) W przypadku Zapier użyłem zapytania: (ubóstwo OR subsydia OR swiadczeniobiorcy OR bezrobotni OR biedni OR ubodzy OR świadczenia OR zasiłki OR 500plus OR babciowe OR 800plus OR socjal OR zasiłek) OR (polityka społeczna) OR (państwo opiekuńcze) OR (pomoc społeczna) OR (opieka społeczna) lang:pl. Pozwoliło mi to stworzyć bazę 1000 wiadomości - wśród nich znajdywały się również retweety oraz odpowiedzi (replies).
+5) W przypadku PhantomBuster użyłem zapytania: (ubóstwo OR subsydia OR swiadczeniobiorcy OR bezrobotni OR biedni OR ubodzy OR świadczenia OR zasiłki OR 500plus OR babciowe OR 800plus OR socjal OR zasiłek) OR (polityka społeczna)OR (państwo opiekuńcze) OR (pomoc społeczna) OR (opieka społeczna) lang:pl -filter:replies. Rezultatem w tym przypadku był zbiór 111 wiadomości - nie zawierał on jednak odpowiedzi, a tweety się nie powtarzały. W mojej ocenie zbiór ten jest lepszej jakości, mimo mniejszych rozmiarów.
+6) Przeprowadziłem analizę na obydwu tych zbiorach danych i w obydwu przypadkach natrafiłem na ten sam problem: narzędzia służące do analizy sentymentu i tagowania części mowy działają bardzo słabo w przypadku języka polskiego (a przynajmniej ja nie potrafię uzyskać rezultatów, które byłyby użytecznie.
+7) W związku z tym zdecydowałem się przetłumaczyć zbiór danych pozyskanych za pomocą PhantomBuster na język angielski (korzystając z DeepL).
+8) Zdaję sobie sprawę, że nie jest to idealne rozwiązanie, ale okazało się najlepsze z tych, które były mi dostępne.
+9) Dokumentacje poprzednich prób dołączyłem do przesłanego rozwiązania.
+
+
+Projekt przejściowy - WERSJA KOŃCOWA (ENG) zawiera pełną wersje pracy, pozostałe pliki to tylko dokumentacja moich prób robienia tego w języku polskim.
+
+Przesyłam wszystkie pliki w dwóch wersjach - HTML i PDF
