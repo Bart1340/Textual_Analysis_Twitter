@@ -11,4 +11,4 @@
 
 Projekt przejściowy - WERSJA KOŃCOWA (ENG) zawiera pełną wersje pracy, pozostałe pliki to tylko dokumentacja moich prób robienia tego w języku polskim.
 
-Przesyłam wszystkie pliki w dwóch wersjach - HTML i PDF
+
